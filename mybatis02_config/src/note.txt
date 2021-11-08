@@ -1,0 +1,26 @@
+mybatis全局配置文件属性设置
+1.引入外部properties配置文件的内容
+2.settings配置项
+    是否开启自动驼峰命名规则
+3.typeAliases别名处理器
+    3.1 package:为某个包下的所有类批量起别名
+    3.2 批量起别名的情况下，使用@Alias注解为某个类型指定新的别名
+
+
+
+4.映射器（mapper）：定义 SQL 映射语句
+    4.1 使用相对于类路径的资源引用
+    4.2 使用完全限定资源定位符（URL）
+    4.3 使用映射器接口实现类的完全限定类名
+
+
+5.数据库源
+    <databaseIdProvider type="DB_VENDOR">
+        <!-- 为不同的数据库厂商起别名 -->
+        <property name="MySQL" value="mysql"/>
+        <property name="Oracle" value="oracle"/>
+        <property name="SQL Server" value="sqlserver"/>
+    </databaseIdProvider>
+
+    在xml中使用
+        <select id="getEmpById" resultType="com.kais.mybatis.bean.Employee" databaseId="mysql">

@@ -1,0 +1,15 @@
+public interface EmployeeMapperDynamicSQL {
+    List<Employee> getEmpsTestInnerParameter(Employee var1);
+
+    List<Employee> getEmpsByConditionIf(Employee var1);
+
+    List<Employee> getEmpsByConditionTrim(Employee var1);
+
+    List<Employee> getEmpsByConditionChoose(Employee var1);
+
+    void updateEmp(Employee var1);
+
+    List<Employee> getEmpsByConditionForeach(@Param("ids") List<Integer> var1);
+
+    void addEmps(@Param("emps") List<Employee> var1);
+}

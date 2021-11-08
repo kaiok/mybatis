@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kais.mapper.BlogMapper">
+
+    <!-- if -->
+    <select id="getByBlogIf" resultType="com.kais.pojo.Blog">
+        select * from blog where
+        <!-- test: 判断的表达式 (OGNL)-->
+        <if test="title != null and title.trim() != ''">
+            title like #{title}
+        </if>
+        <if test="author != null and author.trim() != ''">
+            and author like #{author}
+        </if>
+    </select>
+
+    <!-- where -->
+    <select id="getByBlogWhere" resultType="com.kais.pojo.Blog">
+        select * from blog
+        <where>
+            <if test="title != null and title.trim() != ''">
+                and title like #{title}
+            </if>
+            <if test="author != null and author.trim() != ''">
+                and author like #{author}
+            </if>
+        </where>
+    </select>
+
+    <!--bind-->
+    <select id="getByBlogBind" resultType="com.kais.pojo.Blog">
+        select * from blog
+        <where>
+            <if test="title != null and title.trim() != ''">
+                <!-- bind -->
+                <bind name="newTitle" value="'%' + title + '%'"/>
+                and title like #{newTitle}
+            </if>
+            <if test="author != null and author.trim() != ''">
+                <bind name="newAuthor" value="'%' + author + '%'"/>
+                and author like #{newAuthor}
+            </if>
+        </where>
+    </select>
+
+    <!-- set -->
+    <update id="update">
+        update blog
+        <set>
+            <if test="title != null and title.trim() != ''">
+                , title = #{title}
+            </if>
+            <if test="author != null and author.trim() != ''">
+                , author = #{author}
+            </if>
+            <if test="createTime != null">
+                , create_time = #{createTime}
+            </if>
+            <if test="views != null and views > 100">
+                , views = #{views}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--choose-->
+    <select id="getByBlogChoose" resultType="com.kais.pojo.Blog">
+        select * from blog
+        <where>
+            <choose>
+                <when test="id != null and id > 0">
+                    and id = #{id}
+                </when>
+                <when test="title != null and title.trim() != ''">
+                    <bind name="title" value="'%' + title + '%'"/>
+                    and title like #{title}
+                </when>
+                <otherwise>
+                    and author = 'kais'
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+
+    <select id="getByIds" resultType="com.kais.pojo.Blog">
+        select * from blog
+        <where>
+            <if test="list != null and list.size() > 0">
+                <!--
+                    collection: 指定遍历的集合; 只能写与集合类型对应的名字,如果想使用其他名称则必须使用@param注解指定名称
+                    item: 将当前遍历的元素赋值给指定的变量
+                    separator: 元素之间的分隔符
+                    open: 指定开始符号
+                    close: 指定结束符号
+                    index: 遍历List的时候是index索引, item是当前值
+                           遍历Map的时候index是map的key, item是map的值
+                -->
+                <foreach collection="collection" item="id" open="and id in(" separator="," close=")">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+
+    <!--
+        sql: 抽取片段
+        id: 唯一标识
+     -->
+    <sql id="column">
+        id, title, author, create_time, views
+    </sql>
+    <select id="getAll" resultType="com.kais.pojo.Blog">
+        <!--
+            include: 引入sql节点定义的sql片段
+            refid: 引用指定id的sql片段
+         -->
+        select <include refid="column"/> from blog
+    </select>
+
+</mapper>

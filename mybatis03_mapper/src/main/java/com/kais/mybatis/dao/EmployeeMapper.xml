@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kais.mybatis.dao.EmployeeMapper">
+    <!--
+    namespace:名称空间;指定为接口的全类名
+    id：唯一标识
+    resultType：返回值类型
+    #{id}：从传递过来的参数中取出id值，为单个参数时，等价于#{任意值}
+    public Employee getEmpById(Integer id);
+     -->
+    <select id="getEmpById" resultType="com.kais.mybatis.bean.Employee">
+        select * from employee where id = #{id}
+    </select>
+
+    <!-- public void addEmp(Employee employee); -->
+    <!-- parameterType：参数类型，可以省略，
+    获取自增主键的值：
+        mysql支持自增主键，自增主键值的获取，mybatis也是利用statement.getGenreatedKeys()；
+        useGeneratedKeys="true"；使用自增主键获取主键值策略
+        keyProperty；指定对应的主键属性，也就是mybatis获取到主键值以后，将这个值封装给javaBean的id属性
+    -->
+    <insert id="addEmp" parameterType="com.kais.mybatis.bean.Employee"
+    useGeneratedKeys="true" keyProperty="id" databaseId="mysql">
+        insert into employee(last_name,email,gender)
+        values(#{lastName},#{email},#{gender})
+    </insert>
+
+    <update id="updateEmp">
+        update employee
+        set last_name = #{lastName},email = #{email},gender = #{gender}
+        where id = #{id}
+    </update>
+
+    <delete id="deleteEmpById">
+        delete from employee where id = #{id}
+    </delete>
+
+
+
+    <select id="getEmpByIdAndLastName" resultType="com.kais.mybatis.bean.Employee">
+        select * from employee where id = #{id} and last_Name = #{lastName}
+    </select>
+
+    <select id="getEmpByMap" resultType="com.kais.mybatis.bean.Employee">
+        select * from employee where id = #{id} and last_name = #{lastName}
+    </select>
+
+    <!--返回值类型为集合中元素的类型-->
+    <select id="getEmpsByListNameLike" resultType="com.kais.mybatis.bean.Employee">
+        select * from employee where last_Name like #{lastName}
+    </select>
+
+    <select id="getEmpByIdReturnMap" resultType="java.util.Map">
+        select * from employee where id = #{id}
+    </select>
+
+    <!--public Map<Integer, Employee> getEmpByLastNameLikeReturnMap(String lastName);  -->
+    <select id="getEmpByLastNameLikeReturnMap" resultType="com.kais.mybatis.bean.Employee">
+ 		select * from employee where last_name like #{lastName}
+ 	</select>
+
+</mapper>

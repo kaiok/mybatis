@@ -1,0 +1,1 @@
+mybatis简单示例，查询employee表中第一条数据

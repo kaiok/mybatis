@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--
+        1、mybatis可以使用properties来引入外部properties配置文件的内容；
+      -->
+    <properties resource="dbconfig.properties"/>
+
+
+    <!--
+        2、settings包含很多重要的设置项
+        setting:用来设置每一个设置项
+            name：设置项�?
+            value：设置项取�??
+     -->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+
+        <!--显示的指定每个我们需要更改的配置的�?�，即使他是默认的�?�防止版本更新带来的问题  -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--log4j日志配置-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+
+
+    <!-- 3、typeAliases：别名处理器：可以为我们的java类型起别�?
+            别名不区分大小写
+    -->
+    <typeAliases>
+        <package name="com.kais.mybatis.bean"/>
+    </typeAliases>
+
+    <environments default="dev_mysql">
+        <environment id="dev_mysql">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}" />
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}" />
+                <property name="password" value="${jdbc.password}" />
+            </dataSource>
+        </environment>
+
+        <environment id="dev_oracle">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="${orcl.driver}" />
+                <property name="url" value="${orcl.url}" />
+                <property name="username" value="${orcl.username}" />
+                <property name="password" value="${orcl.password}" />
+            </dataSource>
+        </environment>
+    </environments>
+
+
+    <databaseIdProvider type="DB_VENDOR">
+        <!-- 为不同的数据库厂商起别名 -->
+        <property name="MySQL" value="mysql"/>
+        <property name="Oracle" value="oracle"/>
+        <property name="SQL Server" value="sqlserver"/>
+    </databaseIdProvider>
+
+
+    <mappers>
+        <package name="com.kais.mybatis.dao"/>
+    </mappers>
+</configuration>
