@@ -5,17 +5,17 @@
 <mapper namespace="com.kais.mybatis.dao.EmployeeMapper">
     <!--
     namespace:名称空间;指定为接口的全类名，与接口类EmployeeMapper进行绑定
-    id：唯�?标识
-    resultType：返回�?�类�?
-    #{id}：从传�?�过来的参数中取出id�?
+    id：唯一标识
+    resultType：返回值类型
+    #{id}：从传递过来的参数中取出id值
     public Employee getEmpById(Integer id);
      -->
 
     <!--
-    1.给数据库字段取别名为lastName，与java实体类属性对�?
+    1.给数据库字段取别名为lastName，与java实体类属性对应
     last_name lastName
     2.id与接口类中的方法进行绑定对应
-    3.不能使用 * 获取全部字段，没有开启自动驼峰命名映射，可能有的字段会获取不�?
+    3.不能使用 * 获取全部字段，没有开启自动驼峰命名映射，可能有的字段会获取不到
     -->
     <select id="getEmpById" resultType="com.kais.mybatis.bean.Employee">
 		select id,last_name lastName,email,gender from employee where id = #{id}

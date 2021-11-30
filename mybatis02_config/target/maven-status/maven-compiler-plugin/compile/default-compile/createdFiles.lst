@@ -1,0 +1,5 @@
+com\kais\mybatis\bean\Department.class
+com\kais\mybatis\dao\EmployeeMapperAnnotation.class
+com\kais\mybatis\dao\EmployeeMapper.class
+com\kais\mybatis\bean\Employee.class
+com\kais\mybatis\test\MybatisConfigTest.class

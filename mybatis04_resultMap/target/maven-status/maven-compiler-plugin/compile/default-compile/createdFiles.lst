@@ -1,0 +1,5 @@
+com\kais\resultMap\util\MyBatisUtil.class
+com\kais\resultMap\pojo\Employee.class
+com\kais\resultMap\mapper\DepartmentMapper.class
+com\kais\resultMap\mapper\EmployeeMapper.class
+com\kais\resultMap\pojo\Department.class

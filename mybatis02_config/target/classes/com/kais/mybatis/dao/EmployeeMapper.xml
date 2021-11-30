@@ -4,10 +4,10 @@
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.kais.mybatis.dao.EmployeeMapper">
 <!-- 
-namespace:名称空间;指定为接口的全类�?
-id：唯�?标识
-resultType：返回�?�类�?
-#{id}：从传�?�过来的参数中取出id�?
+namespace:名称空间;指定为接口的全类名
+id：唯一标识
+resultType：返回值类型
+#{id}：从传递过来的参数中取出id值
 
 public Employee getEmpById(Integer id);
  -->

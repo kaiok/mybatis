@@ -5,9 +5,126 @@
       <artifact name="mybatis07_ssm:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb0c4cca-3794-478c-8af0-17bad2ec78a9" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="eb0c4cca-3794-478c-8af0-17bad2ec78a9" name="Default Changelist" comment="依赖版本的修改">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/target/classes/com/kais/mybatis/dao/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/target/classes/com/kais/mybatis/dao/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/target/classes/com/kais/mybatis/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/target/classes/com/kais/mybatis/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis02_config/target/classes/META-INF/mybatis02_config.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis02_config/target/classes/com/kais/mybatis/dao/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis02_config/target/classes/com/kais/mybatis/dao/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis02_config/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis02_config/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03_mapper/mybatis03_mapper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03_mapper/target/classes/META-INF/mybatis03_mapper.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03_mapper/target/classes/com/kais/mybatis/dao/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03_mapper/target/classes/com/kais/mybatis/dao/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03_mapper/target/classes/com/kais/mybatis/dao/EmployeeMapperPlus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03_mapper/target/classes/com/kais/mybatis/dao/EmployeeMapperPlus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis03_mapper/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis03_mapper/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/log/hong.log" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis04_resultMap/log/hong.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/META-INF/mybatis04_resultMap.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/com/kais/resultMap/mapper/DepartmentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/com/kais/resultMap/mapper/DepartmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/com/kais/resultMap/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/com/kais/resultMap/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/com/kais/resultMap/pojo/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/com/kais/resultMap/pojo/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/com/kais/resultMap/util/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/dbconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis04_resultMap/target/test-classes/RestltMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/classes/com/kais/mapper/BlogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/classes/com/kais/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/classes/com/kais/pojo/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/classes/com/kais/util/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis05_DynamicSQL/target/test-classes/DynamicSQLTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/com/kais/cache/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/com/kais/cache/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/com/kais/cache/pojo/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/com/kais/cache/pojo/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/com/kais/cache/util/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/dbconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/ehcache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis06_cache/target/test-classes/CacheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/mybatis07_ssm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/controller/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/mapper/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/mapper/DepartmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/mapper/EmployeeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/pojo/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/pojo/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/java/com/kais/ssm/service/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/main/resources/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/src/test/java/SSM_test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/controller/EmployeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/mapper/DepartmentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/mapper/DepartmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/mapper/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/mapper/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/pojo/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/pojo/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/com/kais/ssm/service/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/target/test-classes/SSM_test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/web/WEB-INF/views/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis07_ssm/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/mapper/BlogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/pojo/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/pojo/BlogExample$Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/pojo/BlogExample$Criterion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/pojo/BlogExample$GeneratedCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/pojo/BlogExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/com/kais/util/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/dbconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/generationConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis08_mbg/target/test-classes/MyBatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/classes/com/kais/bean/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/classes/com/kais/dao/EmployeeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/classes/com/kais/dao/EmployeeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/classes/com/kais/dao/MyFirstPlugin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/classes/dbconfig.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis10_plugin/target/test-classes/MybatisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/classes/com/kais/mapper/BlogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/classes/com/kais/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/classes/com/kais/pojo/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/classes/com/kais/util/MyBatisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/classes/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis11_other/target/test-classes/PageHelperTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +157,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -50,25 +170,42 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="C:\Softwares\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="E:\maven-repository" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1yZFxggrptaIBFF6odEE4ufEE9q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JVM/jvm_learn" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../project_kais/kais_glxy" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -79,29 +216,13 @@
       <recent name="C:\BasicStudy\mybatis_learn\mybatis04_resultMap\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PageHelperTest.testHello">
-    <configuration name="CacheTest.testSecondLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis06_cache" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CacheTest" />
-      <option name="METHOD_NAME" value="testSecondLevelCache" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MybatisTest.test">
     <configuration name="MyBatisTest.testMbg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis08_mbg" />
       <option name="PACKAGE_NAME" value="" />
@@ -117,6 +238,22 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MyBatisTest" />
       <option name="METHOD_NAME" value="testMyBatis3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HelloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kais.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kais.mybatis.test" />
+      <option name="MAIN_CLASS_NAME" value="com.kais.mybatis.test.MybatisTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -233,20 +370,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CacheTest.testSecondLevelCache" />
       <item itemvalue="JUnit.MyBatisTest.testMbg" />
       <item itemvalue="JUnit.MyBatisTest.testMyBatis3" />
       <item itemvalue="JUnit.MybatisTest.test01" />
       <item itemvalue="JUnit.PageHelperTest.testHello" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.109" />
+      <item itemvalue="JUnit.MybatisTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.test" />
         <item itemvalue="JUnit.PageHelperTest.testHello" />
         <item itemvalue="JUnit.MybatisTest.test01" />
         <item itemvalue="JUnit.MyBatisTest.testMyBatis3" />
         <item itemvalue="JUnit.MyBatisTest.testMbg" />
-        <item itemvalue="JUnit.CacheTest.testSecondLevelCache" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +397,7 @@
       </serviceView>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -288,10 +426,36 @@
       <workItem from="1634965447258" duration="2680000" />
       <workItem from="1635123517400" duration="979000" />
       <workItem from="1635129613404" duration="448000" />
+      <workItem from="1638246158352" duration="1142000" />
+      <workItem from="1638247350307" duration="4659000" />
     </task>
+    <task id="LOCAL-00001" summary="依赖版本的修改">
+      <created>1638254314849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638254314849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="依赖版本的修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="依赖版本的修改" />
   </component>
 </project>

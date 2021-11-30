@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.kais.mybatis.dao.EmployeeMapper">
     <!--
-    namespace:名称空间;指定为接口的全类�?
-    id：唯�?标识
-    resultType：返回�?�类�?
-    #{id}：从传�?�过来的参数中取出id值，为单个参数时，等价于#{任意值}
+    namespace:名称空间;指定为接口的全类名
+    id：唯一标识
+    resultType：返回值类型
+    #{id}：从传递过来的参数中取出id值，为单个参数时，等价于#{任意值}
     public Employee getEmpById(Integer id);
      -->
     <select id="getEmpById" resultType="com.kais.mybatis.bean.Employee">
@@ -15,11 +15,11 @@
     </select>
 
     <!-- public void addEmp(Employee employee); -->
-    <!-- parameterType：参数类型，可以省略�?
-    获取自增主键的�?�：
-        mysql支持自增主键，自增主键�?�的获取，mybatis也是利用statement.getGenreatedKeys()�?
-        useGeneratedKeys="true"；使用自增主键获取主键�?�策�?
-        keyProperty；指定对应的主键属�?�，也就是mybatis获取到主键�?�以后，将这个�?�封装给javaBean的id属�??
+    <!-- parameterType：参数类型，可以省略，
+    获取自增主键的值：
+        mysql支持自增主键，自增主键值的获取，mybatis也是利用statement.getGenreatedKeys()；
+        useGeneratedKeys="true"；使用自增主键获取主键值策略
+        keyProperty；指定对应的主键属性，也就是mybatis获取到主键值以后，将这个值封装给javaBean的id属性
     -->
     <insert id="addEmp" parameterType="com.kais.mybatis.bean.Employee"
     useGeneratedKeys="true" keyProperty="id" databaseId="mysql">

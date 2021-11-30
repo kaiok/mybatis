@@ -1,0 +1,3 @@
+com\kais\mybatis\test\MybatisTest.class
+com\kais\mybatis\dao\EmployeeMapper.class
+com\kais\mybatis\bean\Employee.class

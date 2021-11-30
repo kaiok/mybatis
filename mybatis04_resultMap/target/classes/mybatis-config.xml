@@ -27,14 +27,6 @@
     </settings>
 
 
-
-    <!-- 3、typeAliases：别名处理器：可以为我们的java类型起别名
-            别名不区分大小写
-    -->
-    <typeAliases>
-        <package name="com.kais.mybatis.bean"/>
-    </typeAliases>
-
     <environments default="dev_mysql">
         <environment id="dev_mysql">
             <transactionManager type="JDBC"/>
@@ -45,28 +37,9 @@
                 <property name="password" value="${jdbc.password}" />
             </dataSource>
         </environment>
-
-        <environment id="dev_oracle">
-            <transactionManager type="JDBC" />
-            <dataSource type="POOLED">
-                <property name="driver" value="${orcl.driver}" />
-                <property name="url" value="${orcl.url}" />
-                <property name="username" value="${orcl.username}" />
-                <property name="password" value="${orcl.password}" />
-            </dataSource>
-        </environment>
     </environments>
 
-
-    <databaseIdProvider type="DB_VENDOR">
-        <!-- 为不同的数据库厂商起别名 -->
-        <property name="MySQL" value="mysql"/>
-        <property name="Oracle" value="oracle"/>
-        <property name="SQL Server" value="sqlserver"/>
-    </databaseIdProvider>
-
-
     <mappers>
-        <package name="com.kais.mybatis.dao"/>
+        <package name="com.kais.resultMap.mapper"/>
     </mappers>
 </configuration>
