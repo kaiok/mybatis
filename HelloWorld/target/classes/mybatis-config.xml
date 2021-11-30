@@ -15,7 +15,7 @@
             </dataSource>
         </environment>
     </environments>
-    <!-- 将我们写好的sql映射文件（EmployeeMapper.xml）一定要注册到全�?配置文件（mybatis-config.xml）中 -->
+    <!-- 将我们写好的sql映射文件（EmployeeMapper.xml）一定要注册到全局配置文件（mybatis-config.xml）中 -->
     <mappers>
         <mapper resource="com/kais/mybatis/dao/EmployeeMapper.xml" />
     </mappers>
